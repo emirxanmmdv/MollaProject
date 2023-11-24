@@ -1,0 +1,41 @@
+#pageHeader {
+    .pageTitle {
+        background-image: url("https://portotheme.com/html/molla/assets/images/page-header-bg.jpg");
+        width: 100%;
+        height: 150px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        .subTitle {
+            color: #c96;
+        }
+    }
+}
+#sortSection {
+    .container {
+        display: flex;
+        align-items: center;
+        .filter {
+            font-size: 14px;
+            margin-left: 10px;
+        }
+        .cleanAll {
+            font-size: 12px;
+            color: #cc9966;
+            margin-left: 160px;
+        }
+        .toolbox-info {
+            margin-left: 20px;
+            display: flex;
+            gap: 5px;
+            font-size: 14px;
+            color: #ccc;
+            .measure {
+                color: black;
+            }
+        }
+    }
+}
