@@ -1,0 +1,62 @@
+#Sortsection {
+  width: 100%;
+  padding-top: 27px;
+  padding-left: 30px;
+  .container {
+    .productsHeader {
+      .toolbox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .toolboxLeft {
+        .toolboxInfo {
+          font-size: 16px;
+          color: gray;
+          span {
+            color: black;
+          }
+        }
+      }
+      .toolboxRight {
+        display: flex;
+        width: 600px;
+        gap: 20px;
+        .toolboxSort {
+          display: flex;
+          span {
+            margin-right: 10px;
+          }
+          .selectSort {
+            select {
+              border: 1px solid gray;
+            }
+          }
+        }
+        .toolboxLayout {
+          display: flex;
+          gap: 15px;
+          button {
+            border: none;
+            outline: none;
+            background: none;
+            cursor: pointer;
+            rect {
+              fill: gray;
+            }
+          }
+          button:hover rect {
+            fill: black;
+          }
+        }
+      }
+    }
+  }
+  .Products {
+    padding-top: 30px;
+    display: grid;
+    width: 900px;
+    padding-left: 100px;
+    gap: 25px;
+  }
+}

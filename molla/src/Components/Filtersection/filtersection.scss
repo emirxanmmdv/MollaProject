@@ -1,0 +1,218 @@
+#filterSection {
+  background-color: transparent;
+  width: 360px;
+  min-height: 100vh;
+  .container {
+    width: 300px;
+    min-height: 100vh;
+    margin-left: 40px;
+    padding-top: 30px;
+    .filterTextContent {
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 17px;
+      border-bottom: 0.1rem solid #ebebeb;
+      .filter {
+        font-weight: 400;
+      }
+      .cleanAll {
+        color: #cc9966;
+      }
+    }
+    .Category {
+      .categoryTitle {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        h4 {
+          font-size: 16px;
+          line-height: 1.15;
+          font-weight: 400;
+        }
+        .fa-chevron-up {
+          font-size: 15px;
+          color: gray;
+        }
+      }
+      .categoryCheckBoxes {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-bottom: 0.1rem solid #ebebeb;
+        padding-bottom: 20px;
+        .checkboxItem {
+          display: flex;
+          gap: 10px;
+          .checkboxText {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .Size {
+      .sizeTitle {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        h4 {
+          font-size: 16px;
+          line-height: 1.15;
+          font-weight: 400;
+        }
+        .fa-chevron-up {
+          font-size: 15px;
+          color: gray;
+        }
+      }
+      .sizeCheckBoxes {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-bottom: 0.1rem solid #ebebeb;
+        padding-bottom: 20px;
+        .checkboxItem {
+          display: flex;
+          gap: 10px;
+          .checkboxText {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .Color {
+      .colorTitle {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+
+        h4 {
+          font-size: 16px;
+          line-height: 1.15;
+          font-weight: 400;
+        }
+        .fa-chevron-up {
+          font-size: 15px;
+          color: gray;
+        }
+      }
+      .filterColors {
+        padding-top: 17px;
+        display: flex;
+        // justify-content: space-around;
+        flex-direction: row;
+        padding-left: 6px;
+        gap: 12px;
+        border-bottom: 0.1rem solid #ebebeb;
+        padding-bottom: 20px;
+        .brown {
+          background-color: #b87145;
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+        }
+        .lightBrown {
+          background-color: #f0c04a;
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+        }
+        .black {
+          background-color: #333333;
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+        }
+        .red {
+          background-color: red;
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+        }
+        .blue {
+          background-color: #3399cc;
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+        }
+        .khaki {
+          background-color: #669933;
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+        }
+        .beige {
+          background-color: beige;
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+        }
+        .white {
+          background-color: whitesmoke;
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+          border: 1px solid #ebebeb;
+        }
+      }
+    }
+    .Brand {
+      .brandTitle {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        h4 {
+          font-size: 16px;
+          line-height: 1.15;
+          font-weight: 400;
+        }
+        .fa-chevron-up {
+          font-size: 15px;
+          color: gray;
+        }
+      }
+      .brandCheckBoxes {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-bottom: 0.1rem solid #ebebeb;
+        padding-bottom: 20px;
+        .checkboxItem {
+          display: flex;
+          gap: 10px;
+          .checkboxText {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .Price {
+      .priceTitle {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        h4 {
+          font-size: 16px;
+          line-height: 1.15;
+          font-weight: 400;
+        }
+        .fa-chevron-up {
+          font-size: 15px;
+          color: gray;
+        }
+      }
+      .priceText {
+        padding-top: 20px;
+        font-size: 15px;
+        display: flex;
+        gap: 8px;
+        .priceRange {
+          color: #cc9966;
+        }
+      }
+    }
+  }
+}

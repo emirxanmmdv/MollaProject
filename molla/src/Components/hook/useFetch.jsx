@@ -1,18 +1,13 @@
-import React from 'react'
+import { useState } from "react";
 
 const useFetch = () => {
-    const [data, setData] = useState([]);
-    useEffect(() => {
-        const FetchData = async () => {
-            const response = await fetch(url);
-            const jsondata = await response.json()
-            setData(jsondata)
-        };
-        FetchData() 
-    }, [url]);
-    
-    return [data]
+  const [data, setData] = useState([]);
+  const fetchData = async () => {
+    const response = await fetch("http://localhost:3000/Products");
+    const jsondata = await response.json()
+    setData(jsondata)
+  };
+  return{data,fetchData}
+};
 
-}
-
-export default useFetch
+export default useFetch;
